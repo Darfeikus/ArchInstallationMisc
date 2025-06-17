@@ -1,0 +1,6 @@
+fastfetch
+
+alias clear='clear && fastfetch'
+
+#Git-Credential-Manager
+export GPG_TTY=$(tty)
