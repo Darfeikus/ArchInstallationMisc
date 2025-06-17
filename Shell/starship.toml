@@ -259,7 +259,7 @@ symbol = " "
 
 [hostname]
 ssh_only = true
-format = '\[[$ssh_symbol$hostname]($style)\]'
+format = '\[[$ssh_symbol](bold blue)[$hostname]($style)\]'
 ssh_symbol = " "
 
 [julia]
