@@ -1,5 +1,5 @@
 format = """\
-[╭╴](fg:arrow)\
+[╭╴](fg:arrow white)\
 $hostname \
 $azure \
 $username\
@@ -20,7 +20,7 @@ $cmd_duration\
     $java\
     $cmake\
 )
-[╰─](fg:arrow)$character\
+[╰─](fg:arrow white)$character\
 """
 # Add the modules you need
 
@@ -118,7 +118,7 @@ symbol = '󰠅 '
 style = 'blue bold'
 
 [character]
-success_symbol = "[󰍟](fg:arrow)"
+success_symbol = "[󰍟](fg:arrow white)"
 error_symbol = "[󰍟](fg:red)"
 
 [directory]
