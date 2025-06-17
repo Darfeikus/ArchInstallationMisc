@@ -3,6 +3,9 @@
 #install zsh
 sudo pacman -Sy zsh fastfetch zsh-autosuggestions zsh-completions
 
+#create initial config
+fastfetch --gen-config
+
 #change shell
 chsh -s $(which zsh)
 
