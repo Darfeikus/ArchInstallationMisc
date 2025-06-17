@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #install zsh
-sudo pacman -S zsh
+sudo pacman -Sy zsh fastfetch
 
 #change shell
 chsh -s $(which zsh)
@@ -17,3 +17,6 @@ mkdir -p ~/.config && touch ~/.config/starship.toml
 sudo cp .zshrc ~/.zshrc
 sudo cp zshrc /etc/zsh/zshrc
 sudo cp starship.toml ~/.config/starship.toml
+sudo cp fastfetch.jsonc ~/.config/fastfetch/config.jsonc
+
+echo "Copied all files and installation completed"
