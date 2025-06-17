@@ -4,3 +4,6 @@ alias clear='clear && fastfetch'
 
 #Git-Credential-Manager
 export GPG_TTY=$(tty)
+
+#better color for autosuggestion
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan,bold,underline"
