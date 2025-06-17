@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #install zsh
-sudo pacman -Sy zsh fastfetch zsh-autosuggestions zsh-completions nano-syntax-highlighting
+sudo pacman -Sy zsh fastfetch
 
 #add nano syntax highlihting
 sudo cat nanoHighlighting | sudo tee -a /etc/nanorc
