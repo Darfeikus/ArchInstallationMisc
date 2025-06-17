@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #install zsh
-sudo pacman -Sy zsh fastfetch
+sudo pacman -Sy zsh fastfetch zsh-autosuggestions zsh-completions
 
 #change shell
 chsh -s $(which zsh)
