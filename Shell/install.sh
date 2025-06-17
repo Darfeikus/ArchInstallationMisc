@@ -13,6 +13,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 curl -sS https://starship.rs/install.sh | sh
 mkdir -p ~/.config && touch ~/.config/starship.toml
 
+#install font
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip
+unzip -d fonts FiraCode.zip  
+mkdir -p /usr/share/fonts
+sudo cp fonts/*.ttf /usr/share/fonts
+fc-cache
+sudo rm -R fonts
+sudo rm FiraCode.zip
+
 #copy my current version of ~/.zshrc and /etc/zsh/zshrc to the new installation
 sudo cp .zshrc ~/.zshrc
 sudo cp zshrc /etc/zsh/zshrc
