@@ -6,4 +6,4 @@ alias clear='clear && fastfetch'
 export GPG_TTY=$(tty)
 
 #better color for autosuggestion
-export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#10C5AA,bold,underline"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ffffcc,bold,underline"
