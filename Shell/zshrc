@@ -1,5 +1,7 @@
+#Print OS
 fastfetch
 
+#Aliases
 alias clear='clear && fastfetch'
 
 #Git-Credential-Manager
