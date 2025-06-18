@@ -44,4 +44,9 @@ sudo cp zshrc /etc/zsh/zshrc
 sudo cp starship.toml ~/.config/starship.toml
 sudo cp fastfetch.jsonc ~/.config/fastfetch/config.jsonc
 
+#additional setting for per system configurations
+if [ ! -f "/etc/zsh/myconfigs" ]; then
+  touch "/etc/zsh/myconfigs"
+fi
+
 echo "Copied all files and installation completed"
